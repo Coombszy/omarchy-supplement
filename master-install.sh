@@ -14,5 +14,6 @@ sudo pacman -Syu --noconfirm
 . ./install-monitoring.sh
 
 . ./setup-dotfiles.sh
+. ./setup-default-theme.sh
 
 . ./uninstall-eza.sh
