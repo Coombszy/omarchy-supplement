@@ -23,6 +23,7 @@ home_stow git
 home_stow omarchy-bash
 home_stow alacritty
 home_stow nvim
+home_stow tmux
 
 # Return
 cd "$BASEDIR"
