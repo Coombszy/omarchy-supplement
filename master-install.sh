@@ -18,3 +18,4 @@ sudo pacman -Syu --noconfirm
 . ./setup-default-theme.sh
 
 . ./uninstall-eza.sh
+. ./uninstall-try.sh
