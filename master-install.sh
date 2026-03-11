@@ -7,6 +7,7 @@ set -e
 sudo pacman -Syu --noconfirm
 
 . ./install-overrides.sh
+. ./install-custom-udev-rules.sh
 . ./install-git.sh
 . ./install-stow.sh
 . ./install-tmux.sh

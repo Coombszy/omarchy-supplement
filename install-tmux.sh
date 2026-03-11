@@ -8,3 +8,4 @@ FOLDER=$HOME/.tmux/plugins/tpm
 if [ ! -d "$FOLDER" ] ; then
     git clone https://github.com/tmux-plugins/tpm "$FOLDER"
 fi
+
