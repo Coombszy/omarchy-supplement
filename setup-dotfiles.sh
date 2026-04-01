@@ -20,6 +20,7 @@ cd "$FOLDER"
 
 # Stows!
 home_stow git
+home_stow omarchy-ssh
 home_stow omarchy-bash
 home_stow alacritty
 home_stow nvim
