@@ -14,6 +14,6 @@ fi
 
 echo 'KERNEL=="hidraw*", ATTRS{idVendor}=="04d8", ATTRS{idProduct}=="eb2d", MODE="0660", GROUP="plugdev"' | sudo tee "$RULES_FILE" > /dev/null
 
-sudo chown $USER:$USER /dev/hidraw4
+sudo chown $USER:$USER /dev/hidraw4 || true
 sudo udevadm control --reload-rules
 sudo udevadm trigger
